@@ -20,6 +20,10 @@ html {
     margin: 0 auto;
 }
 
+section {
+    padding: 190px;
+}
+
 /* -------------------------------   */
 /* heading */
 /* --------------------------------- */
@@ -29,6 +33,34 @@ h1 {
     margin-bottom: 50px;
     font-size: 260%;
     font-weight: 350%;
+}
+
+h2 {
+    font-size: 250%;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h2::after {
+    display: block;
+    content: "";
+    height: 10px;
+    width: 150px;
+    background-color: #1ac600;
+    margin: 70px auto 0 auto;
+}
+
+
+/* -------------------------------   */
+/* btn */
+/* --------------------------------- */
+
+.text {
+    line-height: 130px;
+    text-align: center;
+    width: 3000px;
+    margin: 0 auto 150px auto;
 }
 
 /* -------------------------------   */
@@ -121,4 +153,39 @@ header {
     text-decoration: none;
     color: #555;
     font-size: 60px;
+}
+
+
+/* -------------------------------   */
+/* section */
+/* --------------------------------- */
+
+.rc {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 20%;
+}
+
+.card ion-icon {
+    width: 150px;
+    height: 150px;
+    fill: #1ac600;
+    color: #1ac600;
+}
+
+.card p {
+    font-size: 90%;
+    line-height: 1.7;
+    width: 90%;
+}
+
+h3 {
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
